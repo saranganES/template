@@ -1,0 +1,10 @@
+.back-img{
+  background-image: url("/public/images/123.png");
+  height: 70vh;
+  filter: brightness(30%)
+}
+.back-img-two{
+  background-image: url("/public/images/Group 479.png");
+  filter: brightness(100%);
+  background-repeat: no-repeat;
+}
