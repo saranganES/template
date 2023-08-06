@@ -4,7 +4,7 @@ export default function Main() {
     return (
         <>
             <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 opacity-80">
-                <img alt='' src="../images/HeaderBanner.png" className="absolute inset-0 -z-10 h-full w-full object-fit" />
+            <img alt='' src="/images/123.png" className="absolute inset-0 -z-10 h-full w-full object-fit" />
                 <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
                     <div className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" ></div>
                 </div>
