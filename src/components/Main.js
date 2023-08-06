@@ -3,71 +3,71 @@ import React from 'react'
 export default function Main() {
     return (
         <>
-            <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 opacity-80">
-            <img alt='' src="/images/123.png" className="absolute inset-0 -z-10 h-full w-full object-fit" />
+            <div className="relative isolate overflow-hidden bg-[#051324] py-14 md:py-24 sm:py-32 ">
+                <img alt='' src="/images/123.png" className="absolute inset-0 -z-10 md:brightness-50 h-96 md:h-full w-full object-fit" />
                 <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
-                    <div className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" ></div>
+                    <div className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#051324] to-[#051324] opacity-5" ></div>
                 </div>
                 <div className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
-                    <div className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" ></div>
+                    <div className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#051324] to-[#051324] opacity-5" ></div>
                 </div>
                 <div className="mx-auto max-w-2xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="sm:text-3xl leading-8 text-center text-gray-300">Lorem ipsum dolor sit amet</h2>
-                        <p className="text-4xl mt-4 font-bold tracking-tight text-center text-white sm:text-5xl">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                        <p className="my-4 font-bold tracking-tight text-center text-white sm:text-5xl">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                     </div>
                 </div>
             </div>
             <div className='bg-[#051324] text-white py-4'>
                 <div className='md:max-w-8xl md:px-20 mx-auto '>
-                    <div className='p-5 my-4 font-bold text-xl'>
+                    <div className='p-5 my-4 font-bold sm:text-xl'>
                         Who We Are
                     </div>
                     <div className='lg:flex'>
-                        <div className='w-full'>
-                            <img alt='' className='w-full lg:h-72' src='/images/cryptocurrency-distribution-concept-with-boxes.png' />
+                        <div className='w-full px-4 md:px-0'>
+                            <img alt='' className='w-full h-60 lg:h-72' src='/images/cryptocurrency-distribution-concept-with-boxes.png' />
                         </div>
-                        <div className='text-lg p-4'>
+                        <div className='text-lg p-4 px-8 text-justify'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq uip ex ea commodo consequat. Duis aute irure dolor in reprehende rit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ut lais nostrud exercitation ullamco laboris nisi ut aliq uip ex ea commodo consequat.
                             <div>
                                 <div className='md:flex'>
-                                    <div className='flex mt-10 '>
+                                    <div className='flex mt-10'>
                                         <div>
-                                            <img alt='' src='/images/airdrop.png' />
+                                            <img alt='' className='h-14 md:h-full' src='/images/airdrop.png' />
                                         </div>
                                         <div className='ml-3'>
-                                            <div className='text-white lg:text-4xl font-bold'><span>1245</span></div>
-                                            <div className='text-white lg:text-3xl mt-2 font-bold'><span>No. of Projects</span></div>
+                                            <div className='text-white lg:text-5xl font-bold'><span>1245</span></div>
+                                            <div className='text-white lg:text-3xl w-[16rem] md:mt-6 font-bold'><span>No. of Projects</span></div>
                                         </div>
                                     </div>
-                                    <div className='flex mt-10 md:ml-28 ml-4 '>
-                                        <img alt='' src='/images/public-service.png' />
+                                    <div className='flex mt-10 md:ml-28 '>
+                                        <img alt='' className='h-14 md:h-full' src='/images/public-service.png' />
                                         <div className='ml-3'>
-                                            <div className='text-white lg:text-4xl font-bold'><span>159</span></div>
-                                            <div className='text-white lg:text-3xl mt-2 font-bold'><span>No. of Clients</span></div>
+                                            <div className='text-white lg:text-5xl font-bold'><span>159</span></div>
+                                            <div className='text-white lg:text-3xl md:mt-6 font-bold'><span>No. of Clients</span></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='p-2 my-10 md:p-0'>
-                        <div>
-                            <img alt='' src='images/Arrows.png' className='mx-auto' />
+                    <div className='p-2 my-10'>
+                        <div className='px-10'>
+                            <img alt='' src='images/Group 322.png' className='mx-auto h-full' />
                         </div>
                     </div>
                     <div className='md:mt-20 mt-10'>
                         <div className='md:flex'>
-                            <div className='px-5 font-bold text-xl'>
+                            <div className='px-5 w-44 font-bold sm:text-xl'>
                                 What We Do
                             </div>
-                            <div className='md:flex items-center hidden'>
-                                <div className="ml-5 hidden lg:block border-solid border-1 border-[#4c4c4c] border-b xl:w-[73rem] w-96"></div>
+                            <div className='w-full md:flex items-center hidden'>
+                                <div className="mr-2 hidden lg:block border-solid border-1 border-[#4c4c4c] border-b xl:w-full w-full"></div>
                             </div>
                         </div>
                         <div className='bg-gradient-to-r md:mt-10 mt-5 py-5 from-slate-900  to-cyan-950 md:px-10 rounded-lg lg:flex md:items-center'>
                             <img alt='' src='/images/Mission.png' className='hidden lg:block' />
-                            <div className='text-white text-2xl mx-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                            <div className='text-white sm:text-2xl text-justify mx-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
                             <img alt='' className='hidden lg:block' src='/images/3d-rendewring-cryptocurency-distribution-concept.png' />
                         </div>
                         <div className='flex justify-end mt-5 mr-2'>
@@ -76,11 +76,11 @@ export default function Main() {
                         </div>
                     </div>
                     <div className='md:flex px-5 mt-5 mb-5 md:mb-10'>
-                        <div className='font-bold text-xl'>
+                        <div className='font-bold sm:text-xl'>
                             Features
                         </div>
-                        <div className='md:flex items-center hidden'>
-                            <div className="ml-5 hidden lg:block border-solid border-1 border-[#4c4c4c] border-b xl:w-[76rem] w-96"></div>
+                        <div className='md:flex w-full items-center hidden'>
+                            <div className="ml-5 hidden lg:block border-solid border-1 border-[#4c4c4c] border-b xl:w-full w-full"></div>
                         </div>
                     </div>
                     <div className="rounded-lg shadow-lg md:flex md:justify-center  ">
@@ -138,11 +138,11 @@ export default function Main() {
                         </div>
                     </div>
                     <div className='md:flex px-5 mt-10 md:mb-10'>
-                        <div className='font-bold text-xl'>
+                        <div className='font-bold w-40 sm:  text-xl'>
                             Our Partners
                         </div>
-                        <div className='md:flex items-center hidden'>
-                            <div className="ml-5 hidden lg:block border-solid border-1 border-[#4c4c4c] border-b xl:w-[73rem] w-96"></div>
+                        <div className='md:flex w-full items-center hidden'>
+                            <div className="hidden lg:block border-solid border-1 border-[#4c4c4c] border-b xl:w-full w-full"></div>
                         </div>
                     </div>
                     <div className='md:flex justify-center'>
@@ -161,7 +161,7 @@ export default function Main() {
                             </div>
                         </div>
                     </div>
-                    <div className='relative mt-20 px-2 md:mt-10'>
+                    <div className='relative mt-10 px-2 md:mt-10'>
                         <img className='w-full h-56 lg:h-96' alt='' src='/images/Group 479.png' />
                         <div className='absolute top-0'>
                             <div className='my-8 lg:w-[650px] mx-5 md:mx-20'>
@@ -176,6 +176,11 @@ export default function Main() {
                                     Join Now
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div className='md:mt-5 mx-6'>
+                        <div className='md:flex  mx-auto items-center hidden '>
+                            <div className="hidden lg:block border-solid border-1 border-[#4c4c4c] border-b w-full"></div>
                         </div>
                     </div>
                 </div>
